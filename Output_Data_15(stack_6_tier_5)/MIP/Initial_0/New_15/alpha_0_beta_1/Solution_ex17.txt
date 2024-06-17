@@ -1,0 +1,96 @@
+Number of initial container : 0
+Number of new container : 15
+Total number of containers : 15
+Level_num : 9
+Container_level : [7, 3, 6, 3, 6, 9, 3, 4, 8, 3, 1, 3, 2, 5, 3]
+ideal_configuration : 
+ [[6. 0. 0. 0. 0. 0.]
+ [3. 6. 0. 0. 0. 0.]
+ [3. 3. 7. 0. 0. 0.]
+ [2. 3. 4. 8. 0. 0.]
+ [1. 3. 3. 5. 9. 0.]]
+Centroid : {7: (3.0, 2.0), 3: (1.8333333333333333, 1.3333333333333333), 6: (1.5, 3.5), 9: (5.0, 0.0), 4: (3.0, 1.0), 8: (4.0, 1.0), 1: (1.0, 0.0), 2: (1.0, 1.0), 5: (4.0, 0.0)}
+Repeat number : 17
+Original weight : [20.98, 15.18, 18.87, 14.04, 18.97, 23.27, 15.43, 15.9, 22.14, 14.99, 10.92, 14.17, 13.58, 18.49, 14.87]
+Sequence : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Emergency : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Time taken to solve the MIP model : 0.4948 seconds
+min_d : 0, max_d : 9
+---------------------------------
+solution for: IP model
+objective: 2.03704
+status: OPTIMAL_SOLUTION(2)
+x_1_2_0=1
+x_2_2_1=1
+x_3_2_2=1
+x_4_2_3=1
+x_5_2_4=1
+x_6_5_0=1
+x_7_3_0=1
+x_8_3_1=1
+x_9_5_1=1
+x_10_3_2=1
+x_11_1_0=1
+x_12_1_1=1
+x_13_1_2=1
+x_14_4_0=1
+x_15_1_3=1
+r_1_1=1
+r_1_2=1
+r_1_3=1
+r_2_0=1
+r_2_1=1
+r_2_2=1
+r_2_3=1
+r_2_4=1
+r_3_0=1
+r_3_1=1
+r_3_2=1
+r_5_0=1
+r_5_1=1
+d_1=3.000
+d_2=0.500
+d_3=2.000
+d_4=1.833
+d_5=1.000
+d_7=2.500
+d_9=1.000
+d_10=1.833
+d_12=1.167
+d_13=1.000
+d_15=2.500
+d_x_1=1.000
+d_x_2=0.167
+d_x_3=0.500
+d_x_4=0.167
+d_x_5=0.500
+d_x_7=1.167
+d_x_9=1.000
+d_x_10=1.167
+d_x_12=0.833
+d_x_15=0.833
+d_y_1=2.000
+d_y_2=0.333
+d_y_3=1.500
+d_y_4=1.667
+d_y_5=0.500
+d_y_7=1.333
+d_y_10=0.667
+d_y_12=0.333
+d_y_13=1.000
+d_y_15=1.667
+normalized distance of container 1 : 0.3333333333333333
+normalized distance of container 2 : 0.05555555555555555
+normalized distance of container 3 : 0.2222222222222222
+normalized distance of container 4 : 0.20370370370370322
+normalized distance of container 5 : 0.11111111111111101
+normalized distance of container 6 : 0.0
+normalized distance of container 7 : 0.2777777777777777
+normalized distance of container 8 : 0.0
+normalized distance of container 9 : 0.1111111111111111
+normalized distance of container 10 : 0.20370370370370305
+normalized distance of container 11 : 0.0
+normalized distance of container 12 : 0.12962962962962984
+normalized distance of container 13 : 0.1111111111111111
+normalized distance of container 14 : 0.0
+normalized distance of container 15 : 0.27777777777777835

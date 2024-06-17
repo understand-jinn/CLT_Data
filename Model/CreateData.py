@@ -3,18 +3,19 @@ import os
 import random
 
 
-# repeat time
+stack_num = 6
+tier_num = 5
+container_num = 15
 repeat_num = 30
 
-# initial_con_num_list = [5, 10, 15]
-# new_con_num_list = [10, 15, 20]
+initial_con_num_list = [0, 5, 7, 10, 15]
+new_con_num_list = []
+for _initial_num in initial_con_num_list:
+    new_con_num_list.append(container_num - _initial_num)
 
-initial_con_num_list = [0, 5, 10, 15, 20]
-new_con_num_list = [50, 45, 40, 35, 30]
-
-stack_num = 10
-tier_num = 6
 initial_con_start_idx = 1
+
+folder_name = f'Input_Data_{container_num}(stack_{stack_num}_tier_{tier_num})'
 
 def get_priority(_group_list, container_num):
     
@@ -44,7 +45,8 @@ def get_random_data(repeat_num, initial_con_num_list, new_con_num_list, stack_nu
             new_con_num = new_con_num_list[container_num_idx]
             
             new_con_start_idx = initial_container_start_idx + initial_con_num
-            folderPath = 'Input_Data/Initial_' + str(initial_con_num) + '/New_' + str(new_con_num)
+            # folderPath = 'Sample/Initial_' + str(initial_con_num) + '/New_' + str(new_con_num)
+            folderPath = os.path.join(folder_name, f'Initial_{initial_con_num}', f'New_{new_con_num}')
             print('Folder Path : ', folderPath, '\n')
             
             # Check exist folder

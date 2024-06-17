@@ -1,0 +1,20 @@
+Can't find feasible solution
+
+Number of initial container : 15
+Number of new container : 0
+Total number of containers : 15
+Level_num : 9
+Container_level : [8, 5, 3, 5, 6, 4, 5, 2, 5, 1, 2, 6, 2, 5, 9]
+ideal_configuration : 
+ [[5. 0. 0. 0. 0. 0.]
+ [5. 6. 0. 0. 0. 0.]
+ [2. 5. 6. 0. 0. 0.]
+ [2. 3. 5. 8. 0. 0.]
+ [1. 2. 4. 5. 9. 0.]]
+Centroid : {8: (4.0, 1.0), 5: (2.2, 2.0), 3: (2.0, 1.0), 6: (2.5, 2.5), 4: (3.0, 0.0), 2: (1.3333333333333333, 1.0), 1: (1.0, 0.0), 9: (5.0, 0.0)}
+Repeat number : 22
+Original weight : [22.34, 16.61, 12.42, 15.38, 17.84, 14.59, 16.53, 10.07, 16.74, 6.06, 9.01, 19.06, 9.59, 15.1, 23.97]
+Sequence : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Emergency : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Time taken to solve the MIP model : 0.0100 seconds
+---------------------------------
