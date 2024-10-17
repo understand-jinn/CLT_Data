@@ -75,8 +75,9 @@ def InitialContainerCSV(folderpath, fileName, ex_idx, start_idx, initial_contain
     
     loc_y_list = [0 for _ in range(initial_container_num)]
 
-    weight_list = [round(random.uniform(5.0, 24.0), 2) for i in range(initial_container_num)]
-    
+    # weight_list = [round(random.uniform(5.0, 24.0), 2) for i in range(initial_container_num)]
+    weight_list = [round(random.uniform(5.0, 24.0)) for i in range(initial_container_num)]
+
     size_list = [20 for _ in range(initial_container_num)]
     
     weight_idx = 0
@@ -134,7 +135,9 @@ def NewContainerCSV(folderpath, fileName, start_idx, new_container_num, group_li
     sequence_list = np.arange(1, new_container_num + 1)
 
     # random weight from 5.0 to 24.0 with up to 2 decimal places
-    weight_list = [round(random.uniform(5.0, 24.0), 2) for i in range(new_container_num)]
+    # weight_list = [round(random.uniform(5.0, 24.0), 2) for i in range(new_container_num)]
+    weight_list = [round(random.uniform(5.0, 24.0)) for i in range(new_container_num)]
+    
     
     size_list = [20 for _ in range(new_container_num)]
     

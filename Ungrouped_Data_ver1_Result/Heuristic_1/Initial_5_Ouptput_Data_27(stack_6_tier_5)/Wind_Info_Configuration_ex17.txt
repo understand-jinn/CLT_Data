@@ -1,0 +1,5 @@
+Range_X = 3000.000000 
+Range_Y = 4000.000000 
+Range_Z = 6000.000000 
+DistBetweenForceLines = 20.000000 
+MaxForce = 35.000000 

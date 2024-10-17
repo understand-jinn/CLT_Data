@@ -5,19 +5,19 @@ import random
 
 stack_num = 6
 tier_num = 5
-container_num = 23
+container_num = 20
 repeat_num = 30
 group_num = 3
 
-# initial_con_num_list = [0, 3, 5, 7, 10, 15]
-initial_con_num_list = [3]
+initial_con_num_list = [0, 5, 7, 10, 15]
+# initial_con_num_list = [3]
 new_con_num_list = []
 for _initial_num in initial_con_num_list:
     new_con_num_list.append(container_num - _initial_num)
 
 initial_con_start_idx = 1
 
-folder_name = f'Ungrouped/Input_Data_{container_num}(stack_{stack_num}_tier_{tier_num})'
+folder_name = f'Ungrouped(int)/Input_Data_{container_num}(stack_{stack_num}_tier_{tier_num})'
 
 def get_group(_group_list, _container_num):
     

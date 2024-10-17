@@ -1,0 +1,95 @@
+Number of initial container : 7
+Number of new container : 8
+Total number of containers : 15
+Level_num : 9
+Container_level : [7, 1, 5, 3, 6, 2, 4, 3, 4, 4, 1, 3, 3, 9, 4]
+ideal_configuration : 
+ [[4. 0. 0. 0. 0. 0.]
+ [3. 5. 0. 0. 0. 0.]
+ [3. 4. 6. 0. 0. 0.]
+ [1. 3. 4. 7. 0. 0.]
+ [1. 2. 3. 4. 9. 0.]]
+Centroid : {7: (3.0, 1.0), 1: (0.0, 0.5), 5: (1.0, 3.0), 3: (0.75, 1.5), 6: (2.0, 2.0), 2: (1.0, 0.0), 4: (1.5, 1.75), 9: (4.0, 0.0)}
+Repeat number : 13
+Original weight : [19.94, 5.18, 15.19, 11.16, 18.12, 7.72, 13.06, 11.8, 14.09, 13.96, 6.37, 10.12, 10.86, 23.71, 13.97]
+Group : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Sequence : [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+Scroe : [19.94, 5.18, 15.19, 11.16, 18.12, 7.72, 13.06, 11.8, 14.09, 13.96, 6.37, 10.12, 10.86, 23.71, 13.97]
+Time taken to solve the MIP model : 0.0188 seconds
+min_d : 0, max_d : 9
+---------------------------------
+solution for: IP model
+objective: 2
+x_0_3_0=1
+x_1_2_0=1
+x_2_5_0=1
+x_3_2_1=1
+x_4_2_2=1
+x_5_2_3=1
+x_6_4_0=1
+x_7_0_0=1
+x_8_0_1=1
+x_9_4_1=1
+x_10_1_0=1
+x_11_1_1=1
+x_12_1_2=1
+x_13_3_1=1
+x_14_4_2=1
+r_2_2=1
+r_2_3=1
+d_0=1.000
+d_1=2.500
+d_2=7.000
+d_3=1.750
+d_5=4.000
+d_6=4.250
+d_7=3.000
+d_8=3.000
+d_9=4.000
+d_10=2.000
+d_11=2.000
+d_12=2.000
+d_13=2.000
+d_14=4.000
+d_x_1=2.000
+d_x_2=4.000
+d_x_3=1.250
+d_x_5=1.000
+d_x_6=2.500
+d_x_7=1.000
+d_x_8=2.000
+d_x_9=3.000
+d_x_10=1.000
+d_x_11=1.000
+d_x_12=1.000
+d_x_13=1.000
+d_x_14=3.000
+d_y_0=1.000
+d_y_1=0.500
+d_y_2=3.000
+d_y_3=0.500
+d_y_5=3.000
+d_y_6=1.750
+d_y_7=2.000
+d_y_8=1.000
+d_y_9=1.000
+d_y_10=1.000
+d_y_11=1.000
+d_y_12=1.000
+d_y_13=1.000
+d_y_14=1.000
+normalized distance of container 0 : 0.1111111111111111
+normalized distance of container 1 : 0.2777777777777778
+normalized distance of container 2 : 0.7777777777777778
+normalized distance of container 3 : 0.19444444444444445
+normalized distance of container 4 : 0.0
+normalized distance of container 5 : 0.4444444444444444
+normalized distance of container 6 : 0.4722222222222222
+normalized distance of container 7 : 0.3333333333333333
+normalized distance of container 8 : 0.3333333333333333
+normalized distance of container 9 : 0.4444444444444444
+normalized distance of container 10 : 0.2222222222222222
+normalized distance of container 11 : 0.2222222222222222
+normalized distance of container 12 : 0.2222222222222222
+normalized distance of container 13 : 0.2222222222222222
+normalized distance of container 14 : 0.4444444444444444

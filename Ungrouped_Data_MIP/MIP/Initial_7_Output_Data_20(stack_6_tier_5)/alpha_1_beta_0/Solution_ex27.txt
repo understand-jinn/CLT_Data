@@ -1,0 +1,119 @@
+Number of initial container : 7
+Number of new container : 13
+Total number of containers : 20
+Level_num : 9
+Container_level : [7, 9, 4, 5, 6, 6, 8, 8, 8, 1, 2, 5, 2, 2, 1, 7, 6, 8, 5, 8]
+ideal_configuration : 
+ [[6. 8. 0. 0. 0. 0.]
+ [5. 6. 8. 0. 0. 0.]
+ [2. 5. 7. 8. 0. 0.]
+ [1. 2. 5. 7. 8. 0.]
+ [1. 2. 4. 6. 8. 9.]]
+Centroid : {7: (2.5, 1.5), 9: (5.0, 0.0), 4: (2.0, 0.0), 5: (1.0, 2.0), 6: (1.3333333333333333, 2.3333333333333335), 8: (2.8, 2.0), 1: (0.0, 0.5), 2: (0.6666666666666666, 1.0)}
+Repeat number : 27
+Original weight : [19.66, 23.67, 13.0, 16.94, 17.1, 16.98, 22.9, 22.63, 21.84, 5.73, 10.19, 15.45, 9.64, 8.65, 5.88, 20.85, 17.91, 22.75, 15.8, 22.06]
+Group : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Sequence : [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+Scroe : [19.66, 23.67, 13.0, 16.94, 17.1, 16.98, 22.9, 22.63, 21.84, 5.73, 10.19, 15.45, 9.64, 8.65, 5.88, 20.85, 17.91, 22.75, 15.8, 22.06]
+Time taken to solve the MIP model : 19.7658 seconds
+min_d : 0, max_d : 9
+---------------------------------
+solution for: IP model
+objective: 4
+x_0_3_0=1
+x_1_3_1=1
+x_2_0_0=1
+x_3_1_0=1
+x_4_2_0=1
+x_5_1_1=1
+x_6_0_1=1
+x_7_1_2=1
+x_8_0_2=1
+x_9_5_0=1
+x_10_4_0=1
+x_11_4_1=1
+x_12_5_1=1
+x_13_0_3=1
+x_14_0_4=1
+x_15_4_2=1
+x_16_2_1=1
+x_17_1_3=1
+x_18_5_2=1
+x_19_5_3=1
+r_0_1=1
+r_0_2=1
+r_0_3=1
+r_0_4=1
+d_0=2.000
+d_1=3.000
+d_2=2.000
+d_3=2.000
+d_4=3.000
+d_5=1.667
+d_6=3.800
+d_7=2.000
+d_8=3.000
+d_9=6.000
+d_10=5.000
+d_11=4.000
+d_12=5.000
+d_13=3.000
+d_14=4.000
+d_15=3.000
+d_16=3.000
+d_17=3.000
+d_18=4.000
+d_19=4.000
+d_x_0=0.500
+d_x_1=2.000
+d_x_2=2.000
+d_x_4=0.667
+d_x_5=0.333
+d_x_6=2.800
+d_x_7=2.000
+d_x_8=3.000
+d_x_9=5.000
+d_x_10=4.000
+d_x_11=3.000
+d_x_12=5.000
+d_x_13=1.000
+d_x_15=2.000
+d_x_16=1.000
+d_x_17=2.000
+d_x_18=4.000
+d_x_19=3.000
+d_y_0=1.500
+d_y_1=1.000
+d_y_3=2.000
+d_y_4=2.333
+d_y_5=1.333
+d_y_6=1.000
+d_y_9=1.000
+d_y_10=1.000
+d_y_11=1.000
+d_y_13=2.000
+d_y_14=4.000
+d_y_15=1.000
+d_y_16=2.000
+d_y_17=1.000
+d_y_19=1.000
+normalized distance of container 0 : 0.2222222222222222
+normalized distance of container 1 : 0.3333333333333333
+normalized distance of container 2 : 0.2222222222222222
+normalized distance of container 3 : 0.2222222222222222
+normalized distance of container 4 : 0.3333333333333333
+normalized distance of container 5 : 0.1851851851851852
+normalized distance of container 6 : 0.4222222222222222
+normalized distance of container 7 : 0.2222222222222222
+normalized distance of container 8 : 0.3333333333333333
+normalized distance of container 9 : 0.6666666666666666
+normalized distance of container 10 : 0.5555555555555556
+normalized distance of container 11 : 0.4444444444444444
+normalized distance of container 12 : 0.5555555555555556
+normalized distance of container 13 : 0.3333333333333333
+normalized distance of container 14 : 0.4444444444444444
+normalized distance of container 15 : 0.3333333333333333
+normalized distance of container 16 : 0.3333333333333333
+normalized distance of container 17 : 0.3333333333333333
+normalized distance of container 18 : 0.4444444444444444
+normalized distance of container 19 : 0.4444444444444444
