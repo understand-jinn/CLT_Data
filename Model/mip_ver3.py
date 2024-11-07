@@ -134,8 +134,8 @@ def mip_solver():
             f.write(f'Total number of containers : {total_cont_num}\n')
             f.write(f'alpha : {alpha}, beta : {beta}\n')
             f.write(f'Level_num : {level_num}\n')
-            f.write(f'container_df :\n{container_df}\n')     
-            f.write(f'geometric : {geometric}\n')
+            f.write(f'container_df :\n{container_df}\n')
+            f.write(f'geometric :\n{geometric}\n')
             f.write("---------------------------------\n")
                    
             f.write(f"Repeat number : {ex_id}\n")
@@ -168,9 +168,10 @@ def mip_solver():
             f.write(f'Number of new container : {new_cont_num}\n')
             f.write(f'Total number of containers : {total_cont_num}\n')
             f.write(f'Level_num : {level_num}\n')
-            f.write(f'container_df : {container_df}\n')            
+            f.write(f'alpha : {alpha}, beta : {beta}\n')        
             f.write(f"Repeat number : {ex_id}\n")
-            f.write(f'geometric : {geometric}\n')
+            f.write(f'container_df :\n{container_df}\n')
+            f.write(f'geometric :\n{geometric}\n')
             
             f.write(f'Time taken to solve the MIP model : {elapsed_time} seconds\n')  
 
@@ -212,13 +213,13 @@ stack_num = 6
 tier_num = 5
 peak_limit = 2
 level_num = 9
-alpha_list = [0, 5, 10]
+alpha_list = [0, 0.5, 1]
 
 M = 100
 
 ex_id = 14
 initial_container_num = 0
-total_container_num = 27
+total_container_num = 7
 new_container_num = total_container_num - initial_container_num
 
 input_folder_name = 'Input_Data_{}(stack_6_tier_5)'
@@ -226,10 +227,10 @@ input_data_path = f'Ungrouped_Input_Data_ver0/Input_Data_{total_container_num}(s
 result_folder = 'Ungrouped_Data(mip_ver3)'
 
 for alpha in alpha_list:
-    beta = 10 - alpha
+    beta = 1 - alpha
     save_result_folder = f'{result_folder}/Initial_{initial_container_num}_Output_Data_{total_container_num}(stack_{stack_num}_tier_{tier_num})/alpha_{alpha}_beta_{beta}'
     save_result_path = f'{save_result_folder}/Container_ex{ex_id}.png'
-    
+    mip_solver()
     
     
     
@@ -237,4 +238,3 @@ for alpha in alpha_list:
 # input_data_path = 'C:/Users/USER\workspace/CLT_Data/Ungrouped_Input_Data_ver0'
 # output_data_path = 'CP_Result'
 
-mip_solver()
